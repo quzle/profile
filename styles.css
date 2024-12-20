@@ -1,0 +1,95 @@
+/* Created by me: */
+  #imageOverlay {
+    display: none; /* Hidden by default */
+  }
+
+h1 {
+  font-size: calc(1.5rem + 1.5vw);
+  font-weight: 600;
+}
+
+.nav-link.active {
+  background-color: #dee0df;
+    border-radius: 5px;
+}
+
+body {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+main {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+
+.main-content {
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.img-thumbnail-custom {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid var(--bs-border-color);
+  border-radius: .375rem;
+  max-width: 30%;
+  height: auto;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* end created by me */
+
+  .dynamic-margin {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .image-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* On top of everything */
+  }
+
+  .image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .image-overlay .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  /* Style for small images */
+  .thumbnail {
+    cursor: pointer;
+    width: 200px; /* Example thumbnail size */
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }

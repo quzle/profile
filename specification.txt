@@ -1,0 +1,23 @@
+10 HTML tags used:
+
+1 <body>
+2 <main>
+3 <nav>
+4 <div>
+5 <a>
+6 <button>
+7 <h1>
+8 <li>
+9 <ul>
+10 <img>
+
+5 CSS properties used:
+
+1 background-color
+2 border-radius
+3 padding-right
+4 display
+5 border-color
+
+Javascript used to display an image thumbnail that expands when clicking
+Bootstrap used to create a nicely formatted navigation bar
